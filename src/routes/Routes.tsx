@@ -38,6 +38,10 @@ const router = createBrowserRouter([
         index: true,
         element: <AdminPage />,
       },
+      {
+        path: "pro-admin",
+        element: <h1>Pro-Admin</h1>,
+      },
     ],
   },
 ]);
