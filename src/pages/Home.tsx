@@ -1,8 +1,10 @@
 const Home = () => {
     return (
-        <div>
-           <h1>Home</h1> 
-        </div>
+      <div className="flex justify-center items-center">
+        <h1 className="text-6xl text-blue-700  font-extrabold">
+        Home Page
+        </h1>
+      </div>
     );
 };
 
